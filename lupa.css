@@ -1,7 +1,11 @@
 body{
-    padding-top:100px;
-    padding: 50px;
+    padding-top:160px;
+    padding: 80px;
     padding-bottom: 0px;
+}
+P{ 
+    text-align: center;
+    text-transform: capitalize;
 }
 html { font-size:100%; }
 @media (min-width: 640px) { body {font-size:1rem;} } 
@@ -28,24 +32,25 @@ html { font-size:100%; }
             img[data-src-800px] {        
                 content: attr(data-src-800px, url);        
             }        
-        }                
+        }   
+        .video-container{
+            background-color: #DBD8D8;
+            padding-top:8px;
+            padding-bottom:56px;
+        }                     
         .video-container iframe,              
             .video-container object,              
-            .video-container embed {  
-            margin:auto;            
+            .video-container embed {                         
             width: 50%;            
-            height:50%;            
+            height:50%; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;         
             }
 .linkedImg{
     width:100%
 }
 
-.textual-area-title{
-text-transform: capitalize;
-}
-.textual-area-title::after{
-    border: 2px border-style green;
-}
 ol{
     list-style: none;
 }
