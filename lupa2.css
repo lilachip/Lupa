@@ -23,5 +23,9 @@ div{
   }
 div>div{
     min-height: auto;
-
 }
+ .toolbar, .footer{
+    background: #161515;
+    color: #ECE6E6; 
+    text-align:center;
+ }
