@@ -105,9 +105,14 @@ li{
 .mobileImg{
 height: 80%;
 }
-  /* .centered-text{
-      margin:0 20% ;
-  } */
-  /* .centered-text >h1{
-      margin-right: 32%;
-  } */
+  .centered-text{
+    display: inline-table;
+    text-align: -webkit-center;
+    margin-right: 20%;
+
+  }
+  .book-centered-text{
+    display: inline-table;
+    text-align: -webkit-center;
+    margin-right: 30%;
+  }
