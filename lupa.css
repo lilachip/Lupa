@@ -20,11 +20,12 @@ a{
     text-decoration-line: none;
     color: white;
 }
-.image-container > table{
+.images-container > table{
     display: block;
     margin-left: auto;
     margin-right: auto; 
     width: 50%;
+    max-height: 50%;
 }
 .video-container{
             background-color: #efefef;
@@ -62,13 +63,21 @@ ol li {
     border-radius: 11px;
   }
  
-  .toolbar, .footer{
+  .footer{
       color: white;
       font-size: 12px;   
       background: #3e3e3e;
       padding: 1rem 0;      
       width: -webkit-fill-available;
       display: inline-flex;
+  }
+  .toolbar{
+    color: white;
+    font-size: 12px;   
+    background: black;    
+    width: -webkit-fill-available;
+    display: inline-flex;
+    padding-bottom: 0.5rem;
   }
   .footer > label{
     width: 50%;
@@ -83,7 +92,7 @@ ol li {
       float: left;
       margin-top: 4%;
   }
-  .image-container{
+  .images-container{
       background:rgb(40, 42, 104);
   }
   tr{
@@ -122,4 +131,10 @@ height: 80%;
   }
   .instructions-td{
     vertical-align: -webkit-baseline-middle;
+  }
+  .book-img{
+      margin-right: 8%;
+  }
+  .imgNtext-link{
+  display: flex;
   }
