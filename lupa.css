@@ -9,6 +9,9 @@ body{
     direction: rtl;
     color: #434343;
 }
+table{
+    text-align: -webkit-center;
+}
 P{ 
     text-align: center;
     text-transform: capitalize;
@@ -27,6 +30,9 @@ a{
             background-color: #efefef;
             padding-top:8px;
             padding-bottom:56px;
+            margin-top: -20%;
+            position: relative;
+            z-index: 1;
         }                     
 .video-container iframe,              
             .video-container object,              
@@ -39,6 +45,7 @@ a{
             }
 ol{
     list-style: none;
+    margin-top: 10%;    
 }
 ol li {
     counter-increment: step-counter;
@@ -91,9 +98,6 @@ ol li {
     margin-top: 1.75rem;
     margin-bottom: 1.75rem;
 }
-/* .textual-area{
-    max-height: 50%;
-} */
 .textual-area, .video-container >h2{
 text-align: -webkit-center;
 }
@@ -115,4 +119,7 @@ height: 80%;
     display: inline-table;
     text-align: -webkit-center;
     margin-right: 30%;
+  }
+  .instructions-td{
+    vertical-align: -webkit-baseline-middle;
   }
