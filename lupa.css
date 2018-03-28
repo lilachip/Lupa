@@ -89,8 +89,7 @@ h2 {
 .video-container{
     background-color: #efefef;
     padding-top:8px;
-    padding-bottom:56px;
-    margin-top: -20%;
+    padding-bottom:56px;    
     position: relative;
     z-index: 1;
 }                     
@@ -163,73 +162,3 @@ height: 80%;
 .instructions-td{
     vertical-align: -webkit-baseline-middle;
   }
-/* html{
-    font-family: 'FbSpoilerRegular',Arial;
-    font-size: 100%;
-}
-body{
-    padding-top:160px;
-    padding: 80px;
-    padding-bottom: 0px;
-    direction: rtl;
-    color: #434343;
-}
-table{
-    text-align: -webkit-center;
-}
-P{ 
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.images-container > table{
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 50%;
-    max-height: 50%;
-}
-
-  .toolbar{
-    color: white;
-    font-size: 12px;   
-    background: black;    
-    width: -webkit-fill-available;
-    display: inline-flex;
-    padding-bottom: 0.5rem;
-  }  
-  .toolbar > div > a{
-      float: left;
-      margin-top: 4%;
-  }
-  .images-container{
-      background:rgb(40, 42, 104);
-  }
-  tr{
-    display: -webkit-inline-box;
-    clear: both;
-  }
- 
-  .centered-text{
-    display: inline-table;
-    text-align: -webkit-center;
-    margin-right: 20%;
-
-  }
-  .book-centered-text{
-    display: inline-table;
-    text-align: -webkit-center;
-    margin-right: 32%;
-  }
- 
-  .book-img{
-      margin-right: 11%;
-  }
-  .imgNtext-link{
-  margin: 8px;
-  }
-  .links-row{
-      margin-right: 28%;
-      margin-bottom: 3%;
-      margin-top: -4%;
-  } */
