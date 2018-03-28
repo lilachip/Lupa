@@ -92,6 +92,7 @@ h2 {
     padding-top:6%;
     padding-bottom:56px;    
     position: relative;
+    margin-top: -4px;    
     z-index: 1;
 }                     
 .video-container iframe,              
@@ -167,4 +168,7 @@ height: 80%;
   }
   .textual-area{
     margin-top: 6%;    
+  }
+  .mobile-img-td{
+      display: flex;
   }
