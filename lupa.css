@@ -103,24 +103,30 @@ h2 {
     height: 480px;
     }
 ol{
+    margin-right: 0;
+    padding-left: 0;
 list-style: none;
 margin-top: 10%;    
 }
 ol li {
+    align-items: center;
+    display: flex;
 counter-increment: step-counter;
-margin-bottom: 5px;
+margin-bottom: 8px;
 }
 ol li::before {
-content: counter(step-counter);
-margin-right: 4%;
+    content: counter(step-counter);
+    background: #8fb442;
+    border-radius: 100%;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    padding: 0.25em;
+    line-height: 1.0;
 margin-left: 2%;
-font-size: 80%;
-background-color: #8fb442;
-font-weight: bold;
-padding: 3px 8px;
-border-radius: 11px;
+font-size: 20px;
+text-align: -webkit-center;
 }
-
 .footer{
 color: white;
 font-size: 12px;   
@@ -154,11 +160,14 @@ color: black;
 li{
     font-size: 1.563rem;
     max-width: 70%;
-    line-height: 40px    
+    line-height: 30px    
 }
 .mobileImg{
 height: 80%;
 }
 .instructions-td{
     vertical-align: -webkit-baseline-middle;
+  }
+  .textual-area{
+    margin-top: 32px;    
   }
