@@ -99,8 +99,8 @@ h2 {
     width: 50%; 
     display: block;
     margin-left: auto;
-    margin-right: auto;    
-    height: -webkit-fill-available;     
+    margin-right: auto;   
+    height: 480px;
     }
 ol{
 list-style: none;
