@@ -159,21 +159,17 @@ li::before {
     margin-top: 32px;
 }
 
-.video-container {
-    margin-top: -10px;
-}
-
-.video-container h2 {
-    margin-top: 40px
-}
-
 .explanation, .video-container {
-    text-align: -webkit-center;
+    text-align: center;
     color: black;
 }
 
 .explanation-table {
     margin-right: 25%;
+}
+
+.explanation-column {
+    text-align: right;
 }
 
 .mobile-app-image {
